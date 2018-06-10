@@ -60,7 +60,7 @@ li a:hover {
 #coffee{
   float: right;
   margin-top: 15px;
-  margin-right: 360px;
+  margin-right: 345px;
 }
 
 /* projects */
@@ -70,18 +70,20 @@ li a:hover {
 }
 
 .wrap {
+  text-align: center;
   margin-top: 20px;
   display: flex;
   flex-direction: row;
 }
 
 .proj1 {
-  margin-left: 100px;
-  flex: 1;
+  /* margin-left: 100px; */
+  flex: 2;
   order: 1;
 }
 
 .proj1 h3 {
+  text-align-last: center;
   font-family: Lato;
 }
 
@@ -126,7 +128,7 @@ li a:hover {
 }
 
 .proj2 {
-  flex: 1;
+  flex: 2;
   order: 2;
 }
 

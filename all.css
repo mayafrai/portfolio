@@ -1,11 +1,14 @@
 body {
   margin: 0;
-  background-color: #F1F0F1;
+  /* background-color: #F1F0F1; */
+  background-color: white;
 }
+
+
 #name-full {
-  font-family: Lato;
-  font-weight: 100;
-  letter-spacing: 2px;
+  /* font-family: Lato; */
+  font-family: SF UI Text;
+  font-weight: 500;
   font-size: 40px;
   margin-left: 100px;
   margin-top: 50px;
@@ -24,7 +27,7 @@ li {
 }
 
 li a {
-  font-family: Lato;
+  font-family: SF UI Text;
     display: block;
     color: #666;
     text-align: center;
@@ -37,7 +40,7 @@ li a:hover {
 }
 
 #all {
-  font-family: Lato;
+  font-family: SF UI Text;
   font-size: 18px;
   margin-left: 100px;
   margin-top: 40px;
@@ -49,7 +52,7 @@ li a:hover {
   float: left;
   text-align: left;
   margin-left: 100px;
-  font-family: Avenir;
+  font-family: SF UI Text;
   font-size: 18px;
   font-weight: 500;
   color: #4A4A4A;
@@ -84,11 +87,11 @@ li a:hover {
 
 .proj1 h3 {
   text-align-last: center;
-  font-family: Lato;
+  font-family: SF UI Text;
 }
 
 .proj2 h3 {
-  font-family: Lato;
+  font-family: SF UI Text;
 }
 
 .proj1 a {
@@ -111,20 +114,20 @@ li a:hover {
 
 .proj1 h4 {
   margin-top: -10px;
-  font-family: Lato;
+  font-family: SF UI Text;
 }
 
 .proj2 h4 {
   margin-top: -10px;
-  font-family: Lato;
+  font-family: SF UI Text;
 }
 
 .proj1 p {
-  font-family: Lato;
+  font-family: SF UI Text;
 }
 
 .proj2 p {
-  font-family: Lato;
+  font-family: SF UI Text;
 }
 
 .proj2 {
@@ -140,7 +143,7 @@ li a:hover {
 }
 
 #description {
-  font-family: Lato;
+  font-family: SF UI Text;
   margin-top: 90px;
   margin-right: 50px;
   margin-left: 100px;
@@ -163,13 +166,13 @@ li a:hover {
 
 #des1 {
   margin-top: 50px;
-  font-family: Lato;
+  font-family: SF UI Text;
   font-size: 18px;
   text-align: center;
 }
 
 #process {
-  font-family: Lato;
+  font-family: SF UI Text;
   font-size: 18px;
   margin-top: 40px;
   font-weight: bold;
@@ -178,13 +181,13 @@ li a:hover {
 
 .first {
   margin-top: 40px;
-  font-family: Lato;
+  font-family: SF UI Text;
   margin-left: 100px;
   margin-right: 80px;
 }
 
 .second {
-  font-family: Lato;
+  font-family: SF UI Text;
   margin-left: 100px;
   margin-right: 80px;
 }
@@ -200,12 +203,12 @@ li a:hover {
 
 .tag {
   margin-top: 40px;
-  font-family: Lato;
+  font-family: SF UI Text;
   margin-left: 100px;
 }
 .bottom {
   margin-top: -10px;
-  font-family: Lato;
+  font-family: SF UI Text;
   margin-left: 100px;
 }
 
@@ -247,7 +250,7 @@ li a:hover {
   margin-left: 250px;
   margin-top: 100px;
   font-size: 20px;
-  font-family: Lato;
+  font-family: SF UI Text;
   font-weight: 300;
   color: white;
   letter-spacing: 1px;
@@ -271,7 +274,7 @@ li a:hover {
   margin-left: 100px;
   margin-top: 100px;
   font-size: 20px;
-  font-family: Lato;
+  font-family: SF UI Text;
   font-weight: 300;
   color: black;
   letter-spacing: 1px;
@@ -287,7 +290,7 @@ li a:hover {
   margin-left: 250px;
   margin-top: 200px;
   font-size: 14px;
-  font-family: Lato;
+  font-family: SF UI Text;
   font-weight: lighter;
   color: white;
 }

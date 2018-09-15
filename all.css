@@ -7,7 +7,7 @@ body {
 
 #name-full {
   /* font-family: Lato; */
-  font-family: SF UI Text;
+  font-family: SF UI Text, Roboto;
   font-weight: 500;
   font-size: 40px;
   margin-left: 100px;

@@ -7,7 +7,7 @@ body {
 
 #name-full {
   /* font-family: Lato; */
-  font-family: Times New Roman, Bourton Base, SF UI Text, Roboto, Helvetica;
+  font-family: Apercu, SF UI Text, Roboto, Helvetica;
   font-weight: 500;
   font-size: 40px;
   margin-left: 100px;
@@ -27,7 +27,7 @@ li {
 }
 
 li a {
-  font-family: SF UI Text;
+  font-family: Apercu, SF UI Text;
     display: block;
     color: #666;
     text-align: center;
@@ -40,7 +40,7 @@ li a:hover {
 }
 
 #all {
-  font-family: SF UI Text;
+  font-family: Apercu, SF UI Text;
   font-size: 18px;
   margin-left: 100px;
   margin-top: 40px;
@@ -52,7 +52,7 @@ li a:hover {
   float: left;
   text-align: left;
   margin-left: 100px;
-  font-family: SF UI Text;
+  font-family: Apercu, SF UI Text;
   font-size: 18px;
   font-weight: 500;
   color: #4A4A4A;

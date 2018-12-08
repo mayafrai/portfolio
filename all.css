@@ -7,9 +7,9 @@ body {
 
 #name-full {
   /* font-family: Lato; */
-  font-family: Apercu, SF UI Text, Roboto, Helvetica;
+  font-family: 'Pacifico', cursive;
   font-weight: 500;
-  font-size: 40px;
+  font-size: 60px;
   margin-left: 100px;
   margin-top: 50px;
 }
@@ -27,7 +27,9 @@ li {
 }
 
 li a {
-  font-family: Apercu, SF UI Text;
+  font-family: 'Hammersmith One', sans-serif;
+  font-weight: 100;
+
     display: block;
     color: #666;
     text-align: center;
@@ -40,7 +42,8 @@ li a:hover {
 }
 
 #all {
-  font-family: Apercu, SF UI Text;
+  font-family: 'Hammersmith One', sans-serif;
+
   font-size: 18px;
   margin-left: 100px;
   margin-top: 40px;
@@ -52,18 +55,12 @@ li a:hover {
   float: left;
   text-align: left;
   margin-left: 100px;
-  font-family: Apercu, SF UI Text;
+  font-family: 'Hammersmith One', sans-serif;
   font-size: 18px;
   font-weight: 500;
   color: #4A4A4A;
   z-index: 10;
   margin-bottom: -10px;
-}
-
-#coffee{
-  float: right;
-  margin-top: 15px;
-  margin-right: 345px;
 }
 
 /* projects */
@@ -87,11 +84,11 @@ li a:hover {
 
 .proj1 h3 {
   text-align-last: center;
-  font-family: SF UI Text;
+  font-family: 'Hammersmith One', sans-serif;
 }
 
 .proj2 h3 {
-  font-family: SF UI Text;
+  font-family: 'Hammersmith One', sans-serif;
 }
 
 .proj1 a {
@@ -114,20 +111,23 @@ li a:hover {
 
 .proj1 h4 {
   margin-top: -10px;
-  font-family: SF UI Text;
+  font-family: 'Hammersmith One', sans-serif;
 }
 
 .proj2 h4 {
   margin-top: -10px;
-  font-family: SF UI Text;
+  font-family: 'Hammersmith One', sans-serif;
 }
 
 .proj1 p {
-  font-family: SF UI Text;
+  font-family: 'Unna', serif;
+  font-size: 20px;
 }
 
 .proj2 p {
-  font-family: SF UI Text;
+  font-family: 'Unna', serif;
+  font-size: 20px;
+
 }
 
 .proj2 {
@@ -143,12 +143,13 @@ li a:hover {
 }
 
 #description {
-  font-family: SF UI Text;
+  font-family: 'Unna', serif;
   margin-top: 90px;
   margin-right: 50px;
   margin-left: 100px;
   flex: 1;
   order: 1;
+  font-size: 20px;
 }
 
 #bio-pic {
@@ -203,8 +204,9 @@ li a:hover {
 
 .tag {
   margin-top: 40px;
-  font-family: SF UI Text;
+  font-family: 'Unna', serif;
   margin-left: 100px;
+  font-size: 20px;
 }
 .bottom {
   margin-top: -10px;
@@ -250,7 +252,7 @@ li a:hover {
   margin-left: 250px;
   margin-top: 100px;
   font-size: 20px;
-  font-family: SF UI Text;
+  font-family: 'Hammersmith One', sans-serif;
   font-weight: 300;
   color: white;
   letter-spacing: 1px;
@@ -267,6 +269,8 @@ li a:hover {
   font-size: 100%;
   font-weight: normal;
   vertical-align: baseline;
+  font-family: 'Unna', serif;
+
 }
 
 #contact2 {
@@ -274,7 +278,7 @@ li a:hover {
   margin-left: 100px;
   margin-top: 100px;
   font-size: 20px;
-  font-family: SF UI Text;
+  font-family: 'Hammersmith One', sans-serif;
   font-weight: 300;
   color: black;
   letter-spacing: 1px;
@@ -289,8 +293,9 @@ li a:hover {
   position: absolute;
   margin-left: 250px;
   margin-top: 200px;
-  font-size: 14px;
-  font-family: SF UI Text;
+  font-size: 18px;
+  font-stretch: expanded;
+  font-family: 'Unna', serif;
   font-weight: lighter;
   color: white;
 }

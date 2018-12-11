@@ -292,6 +292,10 @@ li a:hover {
 /* about page */
 
 /* image opacity animation */
+figure {
+  height: 500px;
+}
+
 .hover11 figure img {
 	opacity: 1;
 	-webkit-transition: .3s ease-in-out;

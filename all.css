@@ -1,49 +1,177 @@
-body {
-  margin: 0;
-  /* background-color: #F1F0F1; */
-  background-color: white;
+/* CSS load animation */
+p, h3, img, h1 {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
 }
 
+hr {
+  height: 1px;
+  width: 90%;
+  /* color: #4A4A4A; */
+  background-color: #DFDFDF;
+  border: none;
+}
+
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* end CSS animation */
+
+body {
+  margin: 0;
+  background-color: #F9F9F9;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* home nav  */
+.header {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    height: 140px;
+}
+
+#nav-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+#name {
+  order: 1;
+  flex: 1.5;
+}
+
+
+#name a {
+  color: white;
+  text-decoration: none;
+}
+
+.section-header a {
+  color: black;
+  text-decoration: none;
+}
+
+#links {
+  letter-spacing: 1px;
+
+  order: 2;
+  flex: 1;
+}
+
+.article-title a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.article-title a:hover {
+  color: #CF182E;
+}
+
+
+
+#nav a {
+  color: white;
+}
 
 #name-full {
   /* font-family: Lato; */
-  font-family: 'Pacifico', cursive;
+  font-family: 'Didot';
   font-weight: 500;
-  font-size: 60px;
+  letter-spacing: 0.5px;
+  font-size: 40px;
   margin-left: 100px;
-  margin-top: 50px;
+  z-index: 6;
+  color: white;
+  margin-top: 40px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    margin-left: 85px;
-    padding: 0;
-    overflow: hidden;
+#nav {
+  font-family: 'Avenir';
+  font-weight: 400;
+  z-index: 7;
+  color: white;
+  margin-top: 60px;
+
 }
 
-li {
-    float: left;
+/* end home nav */
+
+.section-header {
+  font-family: 'Avenir';
+  font-weight: 200;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: 60px;
 }
 
-li a {
-  font-family: 'Hammersmith One', sans-serif;
-  font-weight: 100;
+/* articles css */
+.article-title {
+  letter-spacing: 1px;
 
-    display: block;
-    color: #666;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  font-family: Avenir;
+  font-size: 26px;
 }
+
+.byline {
+  font-family: Didot;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.article {
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+
+/* end articles css */
 
 li a:hover {
   color: blue;
 }
 
 #all {
-  font-family: 'Hammersmith One', sans-serif;
-
+  font-family: 'Avenir';
   font-size: 18px;
   margin-left: 100px;
   margin-top: 40px;
@@ -55,7 +183,7 @@ li a:hover {
   float: left;
   text-align: left;
   margin-left: 100px;
-  font-family: 'Hammersmith One', sans-serif;
+  font-family: 'Avenir';
   font-size: 18px;
   font-weight: 500;
   color: #4A4A4A;
@@ -77,18 +205,17 @@ li a:hover {
 }
 
 .proj1 {
-  /* margin-left: 100px; */
   flex: 2;
   order: 1;
 }
 
 .proj1 h3 {
   text-align-last: center;
-  font-family: 'Hammersmith One', sans-serif;
+  font-family: 'Avenir';
 }
 
 .proj2 h3 {
-  font-family: 'Hammersmith One', sans-serif;
+  font-family: 'Avenir';
 }
 
 .proj1 a {
@@ -111,21 +238,21 @@ li a:hover {
 
 .proj1 h4 {
   margin-top: -10px;
-  font-family: 'Hammersmith One', sans-serif;
+  font-family: 'Avenir';
 }
 
 .proj2 h4 {
   margin-top: -10px;
-  font-family: 'Hammersmith One', sans-serif;
+  font-family: 'Avenir';
 }
 
 .proj1 p {
-  font-family: 'Unna', serif;
+  font-family: 'Didot';
   font-size: 20px;
 }
 
 .proj2 p {
-  font-family: 'Unna', serif;
+  font-family: 'Didot';
   font-size: 20px;
 
 }
@@ -135,7 +262,46 @@ li a:hover {
   order: 2;
 }
 
+#proj-footer {
+  margin-top: 100px;
+  background-color: #212121;
+  height: 416px;
+  width: 100%;
+  position: relative;
+  line-height: 400px;
+
+}
+
+#detail-span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 30%;
+  width: 50%;
+  margin: -15% 0 0 -25%;
+  font-family: Didot;
+  font-size: 30px;
+  color: white;
+}
+
+#detail-span a {
+  text-decoration: none;
+  color: white;
+}
+
 /* about page */
+
+/* image opacity animation */
+.hover11 figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover11 figure:hover img {
+	opacity: .9;
+}
+
+/* end opacity animation */
 
 .about-wrap {
   display: flex;
@@ -143,20 +309,26 @@ li a:hover {
 }
 
 #description {
-  font-family: 'Unna', serif;
-  margin-top: 90px;
-  margin-right: 50px;
-  margin-left: 100px;
+  letter-spacing: 0.2px;
+  margin-top: 20px;
+  margin-right: 100px;
   flex: 1;
-  order: 1;
+  order: 2;
+}
+
+#description p {
+  font-weight: 500;
+  font-family: 'Avenir';
   font-size: 20px;
 }
 
 #bio-pic {
-  margin-right: 200px;
+  margin-left: 50px;
   flex: 1;
-  order: 2;
+  order: 1;
 }
+
+/* end about page css */
 
 /* myoutlines page */
 #phone-cover {
@@ -167,13 +339,13 @@ li a:hover {
 
 #des1 {
   margin-top: 50px;
-  font-family: SF UI Text;
+  font-family: Avenir;
   font-size: 18px;
   text-align: center;
 }
 
 #process {
-  font-family: SF UI Text;
+  font-family: Avenir;
   font-size: 18px;
   margin-top: 40px;
   font-weight: bold;
@@ -182,13 +354,13 @@ li a:hover {
 
 .first {
   margin-top: 40px;
-  font-family: SF UI Text;
+  font-family: Avenir;
   margin-left: 100px;
   margin-right: 80px;
 }
 
 .second {
-  font-family: SF UI Text;
+  font-family: Avenir;
   margin-left: 100px;
   margin-right: 80px;
 }
@@ -204,13 +376,13 @@ li a:hover {
 
 .tag {
   margin-top: 40px;
-  font-family: 'Unna', serif;
+  font-family: 'Avenir';
   margin-left: 100px;
   font-size: 20px;
 }
 .bottom {
   margin-top: -10px;
-  font-family: SF UI Text;
+  font-family: Avenir;
   margin-left: 100px;
 }
 
@@ -234,92 +406,86 @@ li a:hover {
   order: 2;
 }
 
+/* end projects css */
+
+/* contact css */
+
+#foot-wrap {
+  display: flex;
+  margin-top: 70px;
+  position: relative;
+}
+
 #footer1 {
+  flex: 1;
+  order: 2;
   background-color: #212121;
   margin: 0;
-  height: 500px;
-  padding: 0;
-  border: 0;
+  height: 416px;
   width: 50%;
-  float: left;
   font-size: 100%;
   font-weight: normal;
-  vertical-align: baseline;
+}
+
+#collage {
+  height: 416px;
+  flex: 1;
+  order: 1;
+  overflow-y: hidden;
+  margin: 0;
 }
 
 #contact {
   position: absolute;
   margin-left: 250px;
-  margin-top: 100px;
+  margin-top: 70px;
   font-size: 20px;
-  font-family: 'Hammersmith One', sans-serif;
-  font-weight: 300;
+  font-family: 'Avenir';
+  font-weight: 500;
   color: white;
   letter-spacing: 1px;
-}
-
-#footer2 {
-  background-color: white;
-  margin: 0;
-  height: 500px;
-  padding: 0;
-  border: 0;
-  width: 50%;
-  float: right;
-  font-size: 100%;
-  font-weight: normal;
-  vertical-align: baseline;
-  font-family: 'Unna', serif;
-
-}
-
-#contact2 {
-  position: absolute;
-  margin-left: 100px;
-  margin-top: 100px;
-  font-size: 20px;
-  font-family: 'Hammersmith One', sans-serif;
-  font-weight: 300;
-  color: black;
-  letter-spacing: 1px;
-
-}
-
-#foot-wrap {
-  margin-top: 70px;
 }
 
 #email {
   position: absolute;
   margin-left: 250px;
-  margin-top: 200px;
+  margin-top: 190px;
   font-size: 18px;
   font-stretch: expanded;
-  font-family: 'Unna', serif;
+  font-family: 'Avenir';
   font-weight: lighter;
   color: white;
 }
 
+#email a {
+  color: white;
+  text-decoration: none;
+}
+
 #linkedin {
+  -webkit-filter: invert(100%);
   position: absolute;
-  margin-left: 100px;
-  margin-top: 185px;
+  margin-left: 255px;
+  margin-top: 320px;
 }
 
 #instagram {
+  -webkit-filter: invert(100%);
   position: absolute;
-  margin-left: 150px;
-  margin-top: 185px;
+  margin-left: 285px;
+  margin-top: 320px;
 }
 
 #github {
+  -webkit-filter: invert(100%);
   position: absolute;
-  margin-left: 200px;
-  margin-top: 185px;
+  margin-left: 315px;
+  margin-top: 320px;
 }
 
 #medium {
+  -webkit-filter: invert(100%);
   position: absolute;
-  margin-left: 250px;
-  margin-top: 187px;
+  margin-left: 345px;
+  margin-top: 320px;
 }

@@ -1,3 +1,4 @@
+
 /* CSS load animation */
 p, h3, img, h1 {
     animation: fadein 2s;
@@ -92,7 +93,6 @@ html {
 
 #links {
   letter-spacing: 1px;
-
   order: 2;
   flex: 1;
 }
@@ -103,10 +103,10 @@ html {
   display: block;
 }
 
-.article-title a:hover {
-  color: #CF182E;
-}
 
+.article-title a:hover {
+  color: grey;
+}
 
 
 #nav a {
@@ -191,6 +191,64 @@ li a:hover {
   margin-bottom: -10px;
 }
 
+/* recent projects css on home */
+.recent-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.recent1 {
+  flex:1;
+  order:1
+}
+
+.recent2 {
+  flex:1;
+  order:2
+}
+
+.recent3 {
+  flex:1;
+  order:3
+}
+
+.recent-link {
+  font-family: Avenir;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.recent-link a {
+  color: black;
+  text-decoration: none;
+}
+
+.recent-link a:hover {
+  color: grey;
+}
+
+.seeAll {
+  font-family: 'Avenir';
+  font-weight: 600;
+  font-size: 18px;
+  text-align: right;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+
+.seeAll a {
+  color: black;
+  text-decoration: none;
+}
+
+.seeAll a:hover {
+  color: grey
+}
+
+
+/* end recent */
+
+
 /* projects */
 
 #work-des {
@@ -204,60 +262,32 @@ li a:hover {
   flex-direction: row;
 }
 
-.proj1 {
+.left-project {
   flex: 2;
   order: 1;
 }
 
-.proj1 h3 {
-  text-align-last: center;
+.header-layout {
+  font-size: 25px;
+  margin-left: 90px;
+  text-align-last: left;
   font-family: 'Avenir';
 }
 
-.proj2 h3 {
+.p-layout {
+  margin-left: 90px;
+  text-align: left;
   font-family: 'Avenir';
+  font-size: 18px;
+  width: 70%;
 }
 
-.proj1 a {
+.a-layout {
   color: black;
   text-decoration: none;
 }
 
-.proj2 a {
-  color: black;
-  text-decoration: none;
-}
-
-.proj1 a:hover {
-  color: blue;
-}
-
-.proj2 a:hover {
-  color: blue;
-}
-
-.proj1 h4 {
-  margin-top: -10px;
-  font-family: 'Avenir';
-}
-
-.proj2 h4 {
-  margin-top: -10px;
-  font-family: 'Avenir';
-}
-
-.proj1 p {
-  font-family: 'Didot';
-  font-size: 20px;
-}
-
-.proj2 p {
-  font-family: 'Didot';
-  font-size: 20px;
-
-}
-
-.proj2 {
+.right-project {
   flex: 2;
   order: 2;
 }
@@ -292,9 +322,6 @@ li a:hover {
 /* about page */
 
 /* image opacity animation */
-figure {
-  height: 500px;
-}
 
 .hover11 figure img {
 	opacity: 1;
@@ -379,15 +406,27 @@ figure {
 }
 
 .tag {
+  letter-spacing: 0.5px;
   margin-top: 40px;
   font-family: 'Avenir';
   margin-left: 100px;
-  font-size: 20px;
+  font-size: 25px;
 }
+
+.tag a {
+  text-decoration: none;
+  color: black;
+}
+
+.tag a:hover {
+  color: grey;
+}
+
 .bottom {
   margin-top: -10px;
-  font-family: Avenir;
+  font-family: Didot;
   margin-left: 100px;
+  font-size: 18px;
 }
 
 #full {
@@ -409,6 +448,7 @@ figure {
   flex: 1;
   order: 2;
 }
+
 
 /* end projects css */
 

@@ -269,13 +269,11 @@ li a:hover {
 
 .header-layout {
   font-size: 25px;
-  margin-left: 90px;
   text-align-last: left;
   font-family: 'Avenir';
 }
 
 .p-layout {
-  margin-left: 90px;
   text-align: left;
   font-family: 'Avenir';
   font-size: 18px;
@@ -475,6 +473,7 @@ li a:hover {
   height: 416px;
   flex: 1;
   order: 1;
+  width: 50%;
   overflow-y: hidden;
   margin: 0;
 }

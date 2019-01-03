@@ -1,3 +1,13 @@
+/* responsiveness */
+@media only screen and (max-width: 600px) {
+  #proj-footer {
+    position: relative;
+    height: auto;
+    width: auto;
+  }
+}
+
+
 
 /* CSS load animation */
 p, h3, img, h1 {
@@ -204,12 +214,18 @@ li a:hover {
 
 .recent2 {
   flex:1;
-  order:2
+  order:2;
 }
 
 .recent3 {
+  flex:0.9;
+  order:3;
+}
+
+.recent4 {
   flex:1;
-  order:3
+  order:4;
+  margin-right: 20px;
 }
 
 .recent-link {
@@ -296,26 +312,40 @@ li a:hover {
 }
 
 #proj-footer {
-  margin-top: 100px;
+  top: 0;
+  left: 0;
+  margin: 0;
+  /* margin-top: 100px; */
   background-color: #212121;
   height: 416px;
   width: 100%;
-  position: relative;
-  line-height: 400px;
+  display: block;
+  /* position: relative; */
+  /* line-height: 400px; */
 
 }
 
-#detail-span {
+/* #detail-span {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  left: 10%;
+  right: 10%;
   height: 30%;
-  width: 50%;
   margin: -15% 0 0 -25%;
   font-family: Didot;
   font-size: 30px;
   color: white;
+} */
+
+#detail-span {
+  font-family: Didot;
+  font-size: 30px;
+  color: white;
+  line-height: 350px;
+  text-align: center;
+  width: 100%;
 }
+
+
 
 #detail-span a {
   text-decoration: none;
@@ -360,6 +390,11 @@ li a:hover {
   margin-left: 50px;
   flex: 1;
   order: 1;
+}
+
+#bio-pic img {
+  width: 100%;
+  height: 100%;
 }
 
 /* end about page css */
@@ -460,7 +495,6 @@ li a:hover {
 #foot-wrap {
   display: flex;
   margin-top: 70px;
-  position: relative;
 }
 
 #footer1 {
@@ -470,8 +504,6 @@ li a:hover {
   margin: 0;
   height: 416px;
   width: 50%;
-  font-size: 100%;
-  font-weight: normal;
 }
 
 #collage {
@@ -481,6 +513,11 @@ li a:hover {
   width: 50%;
   overflow-y: hidden;
   margin: 0;
+}
+
+#collage img {
+  width: 100%;
+  height: 416px;
 }
 
 #contact {
@@ -537,3 +574,64 @@ li a:hover {
   margin-left: 345px;
   margin-top: 320px;
 }
+
+/* RTR Page CSS */
+
+.article li, ul {
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.article li {
+  list-style: none;
+}
+
+.rtr-title {
+  letter-spacing: 0.8px;
+  font-family: Avenir;
+  font-size: 25px;
+
+}
+
+.rtr-title a {
+  color: black;
+  text-decoration: none;
+
+}
+
+.rtr-title a:hover {
+  color: grey;
+  text-decoration: none;
+
+}
+
+.description-rtr {
+  font-family: Avenir;
+  font-size: 19px;
+  font-weight: 100;
+  padding-bottom: 10px;
+  width: 75%;
+}
+
+.description-rtr a {
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.description-rtr a:hover {
+  color: grey;
+}
+
+#rtr-img {
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+#rtr-quiz {
+  margin-left: 200px;
+  margin-bottom: 20px;
+}
+
+/* End RTR page CSS */

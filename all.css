@@ -8,7 +8,6 @@
 }
 
 
-
 /* CSS load animation */
 p, h3, img, h1 {
     animation: fadein 2s;
@@ -123,8 +122,11 @@ html {
   color: white;
 }
 
+#nav a:hover {
+  color: #A7A7A7;
+}
+
 #name-full {
-  /* font-family: Lato; */
   font-family: 'Didot';
   font-weight: 500;
   letter-spacing: 0.5px;
@@ -135,13 +137,16 @@ html {
   margin-top: 40px;
 }
 
+#name-full a:hover {
+  color: #A7A7A7;
+}
+
 #nav {
   font-family: 'Avenir';
   font-weight: 400;
   z-index: 7;
   color: white;
   margin-top: 60px;
-
 }
 
 /* end home nav */
@@ -547,11 +552,19 @@ li a:hover {
   text-decoration: none;
 }
 
+#email a:hover {
+  color: #A7A7A7;
+}
+
 #linkedin {
   -webkit-filter: invert(100%);
   position: absolute;
   margin-left: 255px;
   margin-top: 320px;
+}
+
+#linkedin a:hover {
+  -webkit-filter: invert(40%)
 }
 
 #instagram {
@@ -561,6 +574,10 @@ li a:hover {
   margin-top: 320px;
 }
 
+#instagram a:hover {
+  -webkit-filter: invert(40%)
+}
+
 #github {
   -webkit-filter: invert(100%);
   position: absolute;
@@ -568,11 +585,19 @@ li a:hover {
   margin-top: 320px;
 }
 
+#github a:hover {
+  -webkit-filter: invert(40%)
+}
+
 #medium {
   -webkit-filter: invert(100%);
   position: absolute;
   margin-left: 345px;
   margin-top: 320px;
+}
+
+#medium a:hover {
+  -webkit-filter: invert(40%)
 }
 
 /* RTR Page CSS */

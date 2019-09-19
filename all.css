@@ -213,18 +213,19 @@ li a:hover {
 }
 
 .recent1 {
-  flex:1;
+  flex:0.6;
   order:1
 }
 
 .recent2 {
-  flex:1;
+  flex:0.6;
   order:2;
 }
 
 .recent3 {
   flex:0.9;
   order:3;
+  margin-right: 50px;
 }
 
 .recent4 {
@@ -692,6 +693,26 @@ border-radius: 2px;
   flex:1.5;
   order: 2;
   margin-bottom: 20px;
+}
+
+#goog-wrap {
+  margin-top: 50px;
+  font-family: Avenir;
+  display: flex;
+  flex-direction: row;
+}
+
+#goog-imgs-left {
+  width: 40%;
+  margin-left: 120px;
+}
+
+#goog-imgs-right {
+  width: 50%;
+}
+
+#goog-img {
+  margin-left: 100px;
 }
 
 /* End RTR page CSS */

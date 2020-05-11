@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131657251-1"></script>
+    <script>window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-131657251-1');</script>
+
+    <meta charset="utf-8" />
+    <title>Maya Frai</title>
+    <link rel="stylesheet" type="text/css" href="all.css" media="all" />
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Unna" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Unna:700" rel="stylesheet">
+
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+
+
+
+
+    <body>
+
+        <!-- Make header bar  -->
+        <header class="header">
+
+            <div id="nav-wrap">
+                <div id="name">
+                    <h1 id="name-full">
+                        <a href="index.html">Maya Frai</a>
+                    </h1>
+                </div>
+
+                <div id="links">
+                    <h3 id="nav">
+                        Get to <a href="#bio">know me</a>, take a look at <a class="active" href="projects.html">my work</a>, or <a href="#contact">say hi</a>.
+                    </h3>
+                </div>
+            </div>
+
+        </header>
+
+        <!-- Make first section header -->
+        <div class="section-header">
+            <p> Some good snippets –––</p>
+        </div>
+
+
+        <!-- list of articles  -->
+        <div class="article">
+            <h1 class="article-title"> <a href="https://arxiv.org/pdf/1906.05433.pdf">Tackling Climate Change with Machine Learning</a></h1>
+            <p class="byline"> "[A]rt can only be created by people (or other independent actors) capable of [certain] kinds of social relationships. In contrast, while we can get emotionally attached to our computers and other possessions, we feel no real empathy for their emotions, no ethical duty toward them, and no need to demonstrate our feelings toward them. This means computers cannot be credited as artists until they have some kind of personhood, just as people do not give gifts to their coffeemakers or marry their cars. If there is ever such a thing as human-level AI, with thoughts, feelings, and moral status comparable to ours, then it would be able to create art. But “human-level AI” is pure science fiction right now." </p>
+        </div>
+
+        <div class="article">
+            <h1 class="article-title">
+                <a class="text" href="https://hbr.org/2014/03/why-china-cant-innovate">
+                    Why China Can’t Innovate
+                </a>
+            </h1>
+            <p class="byline">
+                Innovation and China's political economic system
+            </p>
+        </div>
+
+
+        <div class="article">
+            <h1 class="article-title"> <a class="text" href="https://www.usv.com/writing/2019/11/the-education-transformation/">The Education Transformation </a> </h1>
+            <p class="byline"> Rebecca Kaden from USV on technological innovation for education</p>
+        </div>
+
+        <!-- second section -->
+
+        <div class="section-header">
+            <p>  On my list ––– <p>
+        </div>
+
+        <div class="article">
+            <h1 class="article-title"> <a href="https://www.goodreads.com/book/show/48053923-know-my-name">Know My Name</a></h1>
+            <p class="byline"> Chanel Miller's memoir</p>
+        </div>
+
+        <div class="article">
+            <h1 class="article-title"> <a href="https://www.drawdown.org/"> Drawdown </a></h1>
+            <p class="byline">
+                On reversing global warming
+
+            </p>
+        </div>
+
+        <br />
+
+        <!-- start recent projects -->
+        <hr />
+        <div class="section-header">
+            <p>  What I've recently been up to ––– <p>
+        </div>
+        <div class="recent-wrap">
+
+            <div class="recent1">
+                <div class="article">
+                    <h1 class="article-title"> re—inc </h1>
+                    <p class="byline"> Product Development</p>
+
+                    <p class="recent-link"> → <a href="https://www.wsj.com/articles/u-s-womens-soccer-players-to-launch-business-11558872001">About re—inc</a></p>
+                    <p class="recent-link"> → <a href="https://www.pentagram.com/work/rinc">Brand Identity</a></p>
+
+                </div>
+            </div>
+
+            <div class="recent2">
+                <div class="article">
+                    <h1 class="article-title">Let's Hear It </h1>
+                    <p class="byline"> Founder + Managing Editor</p>
+                    <p class="recent-link"> → <a href="http://www.letshearitplatform.org/lumi-interview.html">LHI Industry: Interview with Jesse Genet, Co-Founder of Lumi</a></p>
+                    <p class="recent-link"> → <a href="http://www.letshearitplatform.org/dagne-interview.html">LHI Industry: Interview with Dagne Dover Founders</a></p>
+                    <p class="recent-link"> → <a href="https://us12.campaign-archive.com/home/?u=026ea119d4e894bad560df48f&id=ee71568076">Latest Newsletter Issue</a></p>
+                </div>
+            </div>
+
+            <div class="recent3">
+                <div class="article">
+                    <h1 class="article-title"> Google </h1>
+                    <p class="byline"> Associate Product Manager Intern</p>
+
+                    <p class="recent-link"> → <a href="google.html">Learn more</a></p>
+                </div>
+            </div>
+
+
+        </div>
+
+        <br />
+
+
+        <div class="seeAll">
+            <p>  <a href="projects.html"> See All Work </a><p>
+        </div>
+
+        <hr />
+
+        <!-- end recent projects -->
+
+        <a name="bio"></a>
+        <!-- about section -->
+        <div class="section-header">
+            <p> A bit about me –––</p>
+        </div>
+
+        <div class="about-wrap">
+            <div id="description">
+                <p>
+                    Maya is a product leader passionate about envisioning and executing impactful ideas. She recently graduated from Cornell University, where she studied Information and Computer Science.
+                    <br><br>
+                    She became interested in technology after building a D2C swimwear brand based in Miami, breaking even during the first year of launch. After also developing a website and app for an AP study platform that reached 500K+ users, she decided to pursue product and design.
+                    <br><br>
+                    She's led the execution and design of scalable products and initiatives within different spaces. She worked across 4 offices at Google to plan a launch strategy for knowledge-powered features covering 300M+ Search queries per day. She also designed an end-to-end guidance and inspiration tool for 15M+ SMB Pages admins at Facebook and led growth research and strategy for rental subscription models at Rent the Runway. At Cornell, she led a mobility product team with over 11K downloads and co-founded a community program for side projects called Backyard.
+                    <br><br>
+                    She's currently working with the re—inc founding team on new product development. She's also the Founder of Let's Hear It, a female empowerment platform providing content to inspire the next generation of modern women.
+                    <br><br>
+                    By way of SF / NYC / Miami
+                </p>
+            </div>
+
+            <div id="bio-pic" class="hover11">
+                <figure><img alt="profile" src="images/me.png" width="500" /></figure>
+            </div>
+        </div>
+
+
+        <a name="contact"></a>
+        <!-- footer  -->
+        <div id="foot-wrap">
+            <div id="footer1">
+                <div id="contact">
+                    <p> Thanks for visiting 👋🏼 </p>
+                </div>
+                <a name="bottom"></a>
+                <p id="email"> Get in touch with me at <a href="mailto:myf4@cornell.edu?Subject=Reaching%20Out">myf4@cornell.edu</a> <br /> <br />Made with ❤️ by Maya Frai. </p>
+
+                <div id="linkedin">
+                    <a href="https://www.linkedin.com/in/mayafrai/">
+                        <img alt="linkedin" src="images/linkedin.png" width="20" />
+                    </a>
+                </div>
+                <div id="instagram">
+                    <a href="https://www.instagram.com/mayafrai/">
+                        <img alt="instagram" src="images/instagram.png" width="20" />
+                    </a>
+                </div>
+                <div id="github">
+                    <a href="https://github.com/mayafrai">
+                        <img alt="github" src="images/github.png" width="20" />
+                    </a>
+                </div>
+                <div id="medium">
+                    <a href="https://medium.com/@mayafrai">
+                        <img alt="medium" src="images/medium.png" width="20" />
+                    </a>
+                </div>
+            </div>
+
+            <div id="collage">
+                <img alt="medium" src="images/logo-m.png" />
+            </div>
+        </div>
+
+
+
+    </body>
+</html>

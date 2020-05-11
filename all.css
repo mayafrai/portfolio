@@ -1,24 +1,23 @@
-@media screen and (min-width: 600px){
+@media screen and (min-width: 600px) {
 
-  #description {
-    flex: 3;
-  }
+    #description {
+        flex: 3;
+    }
 
 
-  .seeAll {
-    display: none;
-  }
+    .seeAll {
+        display: none;
+    }
 
-  .byline {
-    font-size: 4px;
-  }
-
+    .byline {
+        font-size: 2px;
+    }
 }
 
 @media screen and (max-width: 600px) {
-  #bio-pic {
-    display: none;
-  }
+    #bio-pic {
+        display: none;
+    }
 }
 
 
@@ -31,42 +30,49 @@ p, h3, img, h1 {
 }
 
 hr {
-  height: 1px;
-  width: 90%;
-  /* color: #4A4A4A; */
-  background-color: #DFDFDF;
-  border: none;
+    height: 1px;
+    width: 90%;
+    /* color: #4A4A4A; */
+    background-color: #DFDFDF;
+    border: none;
 }
 
 
 @keyframes fadein {
     from {
-        opacity:0;
+        opacity: 0;
     }
+
     to {
-        opacity:1;
+        opacity: 1;
     }
 }
+
 @-moz-keyframes fadein { /* Firefox */
     from {
-        opacity:0;
+        opacity: 0;
     }
+
     to {
-        opacity:1;
+        opacity: 1;
     }
 }
+
 @-webkit-keyframes fadein { /* Safari and Chrome */
     from {
-        opacity:0;
+        opacity: 0;
     }
+
     to {
-        opacity:1;
+        opacity: 1;
     }
 }
+
 @-o-keyframes fadein { /* Opera */
     from {
-        opacity:0;
+        opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -75,12 +81,12 @@ hr {
 /* end CSS animation */
 
 body {
-  margin: 0;
-  background-color: #F9F9F9;
+    margin: 0;
+    background-color: #F9F9F9;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 /* home nav  */
@@ -89,196 +95,196 @@ html {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: black;
+    background-color: white;
     height: 140px;
 }
 
 #nav-wrap {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 #name {
-  order: 1;
-  flex: 1.5;
+    order: 1;
+    flex: 1.5;
 }
 
 
-#name a {
-  color: white;
-  text-decoration: none;
-}
+    #name a {
+        color: black;
+        text-decoration: none;
+    }
 
 .section-header a {
-  color: black;
-  text-decoration: none;
+    color: black;
+    text-decoration: none;
 }
 
 #links {
-  letter-spacing: 1px;
-  order: 2;
-  flex: 1;
+    letter-spacing: normal;
+    order: 2;
+    flex: 1;
 }
 
 .article-title a {
-  text-decoration: none;
-  color: black;
-  display: block;
+    text-decoration: none;
+    color: black;
 }
 
 
-.article-title a:hover {
-  color: grey;
-}
+    .article-title a:hover {
+        color: grey;
+    }
 
 
 #nav a {
-  color: white;
+    color: black;
 }
 
-#nav a:hover {
-  color: #A7A7A7;
-}
+    #nav a:hover {
+        color: #A7A7A7;
+    }
 
 #name-full {
-  font-family: 'Didot';
-  font-weight: 500;
-  letter-spacing: 0.5px;
-  font-size: 40px;
-  margin-left: 100px;
-  z-index: 6;
-  color: white;
-  margin-top: 40px;
+    font-family: 'Didot';
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-size: 40px;
+    margin-left: 100px;
+    z-index: 6;
+    color: black;
+    margin-top: 40px;
 }
 
-#name-full a:hover {
-  color: #A7A7A7;
-}
+    #name-full a:hover {
+        color: #A7A7A7;
+    }
 
 #nav {
-  font-family: 'Avenir';
-  font-weight: 400;
-  z-index: 7;
-  color: white;
-  margin-top: 60px;
+    font-family: 'Avenir';
+    font-weight: 400;
+    z-index: 7;
+    color: black;
+    margin-top: 60px;
 }
 
 /* end home nav */
 
 .section-header {
-  font-family: 'Avenir';
-  font-size: 20px;
-  font-weight: 400;
-  margin-left: 100px;
-  margin-top: 60px;
+    font-family: 'Avenir';
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 100px;
+    margin-top: 60px;
 }
 
 /* articles css */
 .article-title {
-  letter-spacing: 1px;
-  font-family: Avenir;
-  font-size: 1.5vw;
+    letter-spacing: 1px;
+    font-family: Avenir;
+    font-size: 1.3vw;
 }
 
 .byline {
-  font-family: Didot;
-  font-size: 1.5vw;
-  padding-bottom: 10px;
+    font-family: Didot;
+    font-size: 1.1vw;
+    padding-bottom: 10px;
 }
 
 .article {
-  margin-left: 100px;
-  margin-top: 40px;
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-right: 150px;
 }
 
 
 /* end articles css */
 
 li a:hover {
-  color: blue;
+    color: blue;
 }
 
 #all {
-  font-family: 'Avenir';
-  font-size: 18px;
-  margin-left: 100px;
-  margin-top: 40px;
-  font-weight: bold;
+    font-family: 'Avenir';
+    font-size: 18px;
+    margin-left: 100px;
+    margin-top: 40px;
+    font-weight: bold;
 }
 
 
 #mywork {
-  float: left;
-  text-align: left;
-  margin-left: 100px;
-  font-family: 'Avenir';
-  font-size: 18px;
-  font-weight: 500;
-  color: #4A4A4A;
-  z-index: 10;
-  margin-bottom: -10px;
+    float: left;
+    text-align: left;
+    margin-left: 100px;
+    font-family: 'Avenir';
+    font-size: 18px;
+    font-weight: 500;
+    color: #4A4A4A;
+    z-index: 10;
+    margin-bottom: -10px;
 }
 
 /* recent projects css on home */
 .recent-wrap {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .recent1 {
-  flex:0.8;
-  order:1
+    flex: 1;
+    order: 1;
 }
 
 .recent2 {
-  flex:1;
-  order:2;
+    flex: 1;
+    order: 2;
 }
 
 .recent3 {
-  flex:0.9;
-  order:3;
-  margin-right: 50px;
+    flex: 0.8;
+    order: 3;
+    margin-right: 50px;
 }
 
 .recent4 {
-  flex:1;
-  order:4;
-  margin-right: 20px;
+    flex: 1;
+    order: 4;
+    margin-right: 20px;
 }
 
 .recent-link {
-  font-family: Avenir;
-  font-size: 1.3vw;
-  padding-bottom: 10px;
+    font-family: Avenir;
+    font-size: 1.3vw;
+    padding-bottom: 10px;
 }
 
-.recent-link a {
-  color: black;
-  text-decoration: none;
-}
+    .recent-link a {
+        color: black;
+        text-decoration: none;
+    }
 
-.recent-link a:hover {
-  color: grey;
-}
+        .recent-link a:hover {
+            color: grey;
+        }
 
 .seeAll {
-  font-family: 'Avenir';
-  font-weight: 600;
-  font-size: 18px;
-  text-align: right;
-  margin-right: 100px;
-  margin-top: 20px;
+    font-family: 'Avenir';
+    font-weight: 600;
+    font-size: 18px;
+    text-align: right;
+    margin-right: 100px;
+    margin-top: 20px;
 }
 
-.seeAll a {
-  color: black;
-  text-decoration: none;
-}
+    .seeAll a {
+        color: black;
+        text-decoration: none;
+    }
 
-.seeAll a:hover {
-  color: grey
-}
+        .seeAll a:hover {
+            color: grey
+        }
 
 
 /* end recent */
@@ -287,80 +293,79 @@ li a:hover {
 /* projects */
 
 #work-des {
-  height: 130px;
+    height: 130px;
 }
 
 .wrap {
-  text-align: center;
-  display: flex;
-  flex-direction: row;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
 }
 
 .shadow {
--moz-box-shadow: 0 0 30px 5px #EBEBEB;
--webkit-box-shadow: 0 0 30px 5px #EBEBEB;
-border-radius: 2px;
+    -moz-box-shadow: 0 0 30px 5px #EBEBEB;
+    -webkit-box-shadow: 0 0 30px 5px #EBEBEB;
+    border-radius: 2px;
 }
 
 .left-project {
-  flex: 2;
-  order: 1;
+    flex: 2;
+    order: 1;
 }
 
 .header-layout {
-  margin-left: 100px;
-  font-size: 22px;
-  vertical-align: middle;
-  text-align: left;
-  font-family: 'Avenir';
-  font-weight: 700;
+    margin-left: 100px;
+    font-size: 22px;
+    vertical-align: middle;
+    text-align: left;
+    font-family: 'Avenir';
+    font-weight: 700;
 }
 
 
 .sub-layout {
-  margin-left: 100px;
-  text-align: left;
-  font-family: 'Avenir';
-  letter-spacing: 1px;
-  font-size: 12px;
-  font-weight: 500;
-  color: grey;
+    margin-left: 100px;
+    text-align: left;
+    font-family: 'Avenir';
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 500;
+    color: grey;
 }
 
 
 .p-layout {
-  margin-left: 100px;
-  text-align: left;
-  font-family:  'Avenir';
-  font-weight: 300;
-  font-size: 16px;
-  width: 70%;
-  color: grey;
+    margin-left: 100px;
+    text-align: left;
+    font-family: 'Avenir';
+    font-weight: 300;
+    font-size: 16px;
+    width: 70%;
+    color: grey;
 }
 
 
 .a-layout {
-  color: black;
-  text-decoration: none;
+    color: black;
+    text-decoration: none;
 }
 
-.a-layout:hover {
-  color: grey;
-}
+    .a-layout:hover {
+        color: grey;
+    }
 
 .right-project {
-  flex: 2;
-  order: 2;
+    flex: 2;
+    order: 2;
 }
 
 #proj-footer {
-  margin-top: 100px;
-  background-color: #212121;
-  height: 416px;
-  width: 100%;
-  /* position: relative; */
-  /* line-height: 400px; */
-
+    margin-top: 100px;
+    background-color: #212121;
+    height: 416px;
+    width: 100%;
+    /* position: relative; */
+    /* line-height: 400px; */
 }
 
 /* #detail-span {
@@ -375,154 +380,159 @@ border-radius: 2px;
 } */
 
 #detail-span {
-  font-family: Didot;
-  font-size: 30px;
-  color: white;
-  line-height: 350px;
-  text-align: center;
-  width: 100%;
+    font-family: Didot;
+    font-size: 30px;
+    color: white;
+    line-height: 350px;
+    text-align: center;
+    width: 100%;
 }
 
 
 
-#detail-span a {
-  text-decoration: none;
-  color: white;
-}
+    #detail-span a {
+        text-decoration: none;
+        color: white;
+    }
 
 /* about page */
 
 /* image opacity animation */
 
 .hover11 figure img {
-	opacity: 1;
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 }
+
 .hover11 figure:hover img {
-	opacity: .9;
+    opacity: .9;
 }
 
 /* end opacity animation */
 
+#description #motto {
+    font-size: 16px;
+}
+
 .about-wrap {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 #description {
-  letter-spacing: 0.2px;
-  margin-top: 50px;
-  margin-right: 100px;
-  flex: 0.7;
-  order: 2;
+    letter-spacing: 0.2px;
+    margin-top: 50px;
+    margin-right: 100px;
+    flex: 0.7;
+    order: 2;
 }
 
-#description p {
-  font-weight: 500;
-  font-family: 'Avenir';
-  font-size: 18px;
-}
+    #description p {
+        font-weight: 500;
+        font-family: 'Avenir';
+        font-size: 16px;
+    }
 
 #bio-pic {
-  margin-left: 50px;
-  flex: 1;
-  order: 1;
+    margin-left: 50px;
+    flex: 1;
+    order: 1;
 }
 
-#bio-pic img {
-  width: 100%;
-  height: 100%;
-}
+    #bio-pic img {
+        width: 100%;
+        height: 100%;
+    }
 
 /* end about page css */
 
 /* myoutlines page */
 #phone-cover {
-  text-align: center;
-  /* margin-top: -10px;
+    text-align: center;
+    /* margin-top: -10px;
   margin-left: -130px; */
 }
 
 #des1 {
-  margin-top: 50px;
-  font-family: Avenir;
-  font-size: 18px;
-  text-align: center;
+    margin-top: 50px;
+    font-family: Avenir;
+    font-size: 18px;
+    text-align: center;
 }
 
 #process {
-  font-family: Avenir;
-  font-size: 18px;
-  margin-top: 40px;
-  font-weight: bold;
-  text-align: center;
+    font-family: Avenir;
+    font-size: 18px;
+    margin-top: 40px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .first {
-  margin-top: 40px;
-  font-family: Avenir;
-  margin-left: 100px;
-  margin-right: 80px;
+    margin-top: 40px;
+    font-family: Avenir;
+    margin-left: 100px;
+    margin-right: 80px;
 }
 
 .second {
-  font-family: Avenir;
-  margin-left: 100px;
-  margin-right: 80px;
+    font-family: Avenir;
+    margin-left: 100px;
+    margin-right: 80px;
 }
 
 .data {
-  text-align: center;
+    text-align: center;
 }
 
 .research {
-  margin-top: 40px;
-  text-align: center;
+    margin-top: 40px;
+    text-align: center;
 }
 
 .tag {
-  letter-spacing: 0.5px;
-  margin-top: 40px;
-  font-family: 'Avenir';
-  margin-left: 100px;
-  font-size: 22px;
+    letter-spacing: 0.5px;
+    margin-top: 40px;
+    font-family: 'Avenir';
+    margin-left: 100px;
+    font-size: 22px;
 }
 
-.tag a {
-  text-decoration: none;
-  color: black;
-}
+    .tag a {
+        text-decoration: none;
+        color: black;
+    }
 
-.tag a:hover {
-  color: grey;
-}
+        .tag a:hover {
+            color: grey;
+        }
 
 .bottom {
-  margin-top: -10px;
-  font-family: Didot;
-  margin-left: 100px;
-  font-size: 18px;
+    margin-top: -10px;
+    font-family: Didot;
+    margin-left: 100px;
+    font-size: 18px;
 }
 
 #full {
-  margin-top: 50px;
+    margin-top: 50px;
 }
 
 #full-wrap {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 #left-wrap {
-  flex: 1;
-  order: 1;
+    flex: 1;
+    order: 1;
 }
 
 #right-wrap {
-  /* margin-right: 100px; */
-  flex: 1;
-  order: 2;
+    /* margin-right: 100px; */
+    flex: 1;
+    order: 2;
 }
 
 
@@ -531,200 +541,198 @@ border-radius: 2px;
 /* contact css */
 
 #foot-wrap {
-  display: flex;
-  margin-top: 70px;
+    display: flex;
+    margin-top: 70px;
 }
 
 #footer1 {
-  flex: 1;
-  order: 2;
-  background-color: #212121;
-  margin: 0;
-  height: 416px;
-  width: 50%;
+    flex: 1;
+    order: 2;
+    background-color: #212121;
+    margin: 0;
+    height: 416px;
+    width: 50%;
 }
 
 #collage {
-  height: 416px;
-  flex: 1;
-  order: 1;
-  width: 50%;
-  overflow-y: hidden;
-  margin: 0;
+    height: 416px;
+    flex: 1;
+    order: 1;
+    width: 50%;
+    overflow-y: hidden;
+    margin: 0;
 }
 
-#collage img {
-  width: 100%;
-  height: 416px;
-}
+    #collage img {
+        width: 100%;
+        height: 416px;
+    }
 
 #contact {
-  position: absolute;
-  margin-left: 250px;
-  margin-top: 70px;
-  font-size: 20px;
-  font-family: 'Avenir';
-  font-weight: 500;
-  color: white;
-  letter-spacing: 1px;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 70px;
+    font-size: 20px;
+    font-family: 'Avenir';
+    font-weight: 500;
+    color: white;
+    letter-spacing: 1px;
 }
 
 #email {
-  position: absolute;
-  margin-left: 250px;
-  margin-top: 190px;
-  font-size: 18px;
-  font-stretch: expanded;
-  font-family: 'Avenir';
-  font-weight: lighter;
-  color: white;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 190px;
+    font-size: 18px;
+    font-stretch: expanded;
+    font-family: 'Avenir';
+    font-weight: lighter;
+    color: white;
 }
 
-#email a {
-  color: white;
-  text-decoration: none;
-}
+    #email a {
+        color: white;
+        text-decoration: none;
+    }
 
-#email a:hover {
-  color: #A7A7A7;
-}
+        #email a:hover {
+            color: #A7A7A7;
+        }
 
 #linkedin {
-  -webkit-filter: invert(100%);
-  position: absolute;
-  margin-left: 255px;
-  margin-top: 320px;
+    -webkit-filter: invert(100%);
+    position: absolute;
+    margin-left: 255px;
+    margin-top: 320px;
 }
 
-#linkedin a:hover {
-  -webkit-filter: invert(40%)
-}
+    #linkedin a:hover {
+        -webkit-filter: invert(40%)
+    }
 
 #instagram {
-  -webkit-filter: invert(100%);
-  position: absolute;
-  margin-left: 285px;
-  margin-top: 320px;
+    -webkit-filter: invert(100%);
+    position: absolute;
+    margin-left: 285px;
+    margin-top: 320px;
 }
 
-#instagram a:hover {
-  -webkit-filter: invert(40%)
-}
+    #instagram a:hover {
+        -webkit-filter: invert(40%)
+    }
 
 #github {
-  -webkit-filter: invert(100%);
-  position: absolute;
-  margin-left: 315px;
-  margin-top: 320px;
+    -webkit-filter: invert(100%);
+    position: absolute;
+    margin-left: 315px;
+    margin-top: 320px;
 }
 
-#github a:hover {
-  -webkit-filter: invert(40%)
-}
+    #github a:hover {
+        -webkit-filter: invert(40%)
+    }
 
 #medium {
-  -webkit-filter: invert(100%);
-  position: absolute;
-  margin-left: 345px;
-  margin-top: 320px;
+    -webkit-filter: invert(100%);
+    position: absolute;
+    margin-left: 345px;
+    margin-top: 320px;
 }
 
-#medium a:hover {
-  -webkit-filter: invert(40%)
-}
+    #medium a:hover {
+        -webkit-filter: invert(40%)
+    }
 
 /* RTR Page CSS */
 
 .article li, ul {
-  font-family: Avenir;
-  font-size: 18px;
-  font-weight: 100;
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 100;
 }
 
 .article li {
-  list-style: none;
+    list-style: none;
 }
 
 .rtr-title {
-  letter-spacing: 0.8px;
-  font-family: Avenir;
-  font-size: 25px;
-
+    letter-spacing: 0.8px;
+    font-family: Avenir;
+    font-size: 25px;
 }
 
-.rtr-title a {
-  color: black;
-  text-decoration: none;
-}
+    .rtr-title a {
+        color: black;
+        text-decoration: none;
+    }
 
-.rtr-title a:hover {
-  color: grey;
-  text-decoration: none;
-
-}
+        .rtr-title a:hover {
+            color: grey;
+            text-decoration: none;
+        }
 
 .description-rtr {
-  font-family: Avenir;
-  font-size: 19px;
-  font-weight: 100;
-  padding-bottom: 10px;
-  width: 75%;
+    font-family: Avenir;
+    font-size: 19px;
+    font-weight: 100;
+    padding-bottom: 10px;
+    width: 75%;
 }
 
 .rtr-list a {
-  color: black;
-  font-weight: 700;
-  text-decoration: none;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 .description-rtr a:hover {
-  color: grey;
+    color: grey;
 }
 
 .rtr-list a:hover {
-  color: grey;
+    color: grey;
 }
 
 #rtr-img {
-  margin-left: 100px;
-  margin-bottom: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
 }
 
 #wrap-rtr {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 #rtr-quiz {
-  flex:1;
-  order: 1;
-  margin-bottom: 20px;
+    flex: 1;
+    order: 1;
+    margin-bottom: 20px;
 }
 
 #rtr-finder {
-  flex:1.5;
-  order: 2;
-  margin-bottom: 20px;
+    flex: 1.5;
+    order: 2;
+    margin-bottom: 20px;
 }
 
 #goog-wrap {
-  margin-top: 50px;
-  font-family: Avenir;
-  display: flex;
-  flex-direction: row;
+    margin-top: 50px;
+    font-family: Avenir;
+    display: flex;
+    flex-direction: row;
 }
 
 #goog-imgs-left {
-  width: 40%;
-  margin-left: 120px;
+    width: 40%;
+    margin-left: 120px;
 }
 
 #goog-imgs-right {
-  width: 50%;
+    width: 50%;
 }
 
 #goog-img {
-  margin-left: 100px;
+    margin-left: 100px;
 }
 
 /* End RTR page CSS */

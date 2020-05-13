@@ -197,6 +197,11 @@ html {
     margin-right: 150px;
 }
 
+.article a {
+  text-decoration: none;
+    color: black;
+}
+
 
 /* end articles css */
 
@@ -436,7 +441,13 @@ li a:hover {
 
     #description a {
         color: black;
-        
+        text-decoration: underline;
+
+    }
+
+    #description a:hover {
+        color: grey;
+
     }
 
 #bio-pic {
@@ -732,6 +743,7 @@ li a:hover {
     margin-left: 120px;
 }
 
+
 #goog-imgs-right {
     width: 50%;
 }
@@ -741,3 +753,16 @@ li a:hover {
 }
 
 /* End RTR page CSS */
+
+/* re-inc page css */
+
+#re-inc-photo {
+  padding: 20px 0 ;
+     width: 100px;
+     height: 100px;
+}
+
+#re-inc-photo img {
+  width: 100%;
+    height: 100%;
+}

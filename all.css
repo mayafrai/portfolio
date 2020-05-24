@@ -146,7 +146,7 @@ html {
     }
 
 #name-full {
-    font-family: 'Didot';
+    font-family: HelveticaNeue;
     font-weight: 500;
     letter-spacing: 0.5px;
     font-size: 40px;
@@ -161,19 +161,19 @@ html {
     }
 
 #nav {
-    font-family: 'Avenir';
-    font-weight: 400;
+    font-family: HelveticaNeue;
+    font-weight: 500;
     z-index: 7;
-    color: black;
+    color: grey;
     margin-top: 60px;
 }
 
 /* end home nav */
 
 .section-header {
-    font-family: 'Avenir';
-    font-size: 20px;
-    font-weight: 400;
+    font-family: HelveticaNeue;
+    font-size: 25px;
+    font-weight: 500;
     margin-left: 100px;
     margin-top: 60px;
 }
@@ -181,12 +181,13 @@ html {
 /* articles css */
 .article-title {
     letter-spacing: 1px;
-    font-family: Avenir;
+    font-family: HelveticaNeue;
+    font-weight: 500;
     font-size: 1.3vw;
 }
 
 .byline {
-    font-family: Didot;
+    font-family: Avenir;
     font-size: 1.1vw;
     padding-bottom: 10px;
 }
@@ -295,6 +296,39 @@ li a:hover {
 /* end recent */
 
 
+/* new projects page */
+
+#project-header {
+  margin-left: 100px;
+  margin-top: 90px;
+  margin-bottom: 70px;
+}
+
+#project-header p {
+  font-family: HelveticaNeue;
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.flex-proj {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-image {
+  flex: 1;
+  margin-left: 100px;
+}
+
+.project-info {
+  flex: 1;
+  margin-top: 20px;
+}
+
+
+/* end new projects */
+
+
 /* projects */
 
 #work-des {
@@ -323,15 +357,15 @@ li a:hover {
     font-size: 22px;
     vertical-align: middle;
     text-align: left;
-    font-family: 'Avenir';
-    font-weight: 700;
+    font-family: HelveticaNeue;
+    font-weight: 500;
 }
 
 
 .sub-layout {
     margin-left: 100px;
     text-align: left;
-    font-family: 'Avenir';
+    font-family: HelveticaNeue;
     letter-spacing: 1px;
     font-size: 12px;
     font-weight: 500;
@@ -340,11 +374,13 @@ li a:hover {
 
 
 .p-layout {
+    margin-top: 35px;
     margin-left: 100px;
     text-align: left;
-    font-family: 'Avenir';
-    font-weight: 300;
-    font-size: 16px;
+    font-family: Avenir;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
     width: 70%;
     color: grey;
 }
@@ -355,9 +391,9 @@ li a:hover {
     text-decoration: none;
 }
 
-    .a-layout:hover {
+.a-layout:hover {
         color: grey;
-    }
+}
 
 .right-project {
     flex: 2;
@@ -435,7 +471,9 @@ li a:hover {
 
     #description p {
         font-weight: 500;
-        font-family: 'Avenir';
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+        font-family: Avenir;
         font-size: 16px;
     }
 
@@ -510,9 +548,10 @@ li a:hover {
 .tag {
     letter-spacing: 0.5px;
     margin-top: 40px;
-    font-family: 'Avenir';
+    font-family: HelveticaNeue;
     margin-left: 100px;
-    font-size: 22px;
+    font-weight: 500;
+    font-size: 20px;
 }
 
     .tag a {
@@ -589,7 +628,7 @@ li a:hover {
     margin-left: 250px;
     margin-top: 70px;
     font-size: 20px;
-    font-family: 'Avenir';
+    font-family: HelveticaNeue;
     font-weight: 500;
     color: white;
     letter-spacing: 1px;

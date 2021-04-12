@@ -132,6 +132,13 @@ html {
 }
 
 
+.article-title p {
+  font-size: 12px;
+  color: grey;
+  font-weight: 500;
+  letter-spacing: normal;
+}
+
     .article-title a:hover {
         color: grey;
     }
@@ -183,7 +190,7 @@ html {
     letter-spacing: 1px;
     font-family: HelveticaNeue;
     font-weight: 500;
-    font-size: 1.3vw;
+    font-size: 1.2vw;
 }
 
 .byline {
